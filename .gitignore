@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+
+# Build
+build/
+dist/
+*.spec
+
+# C++
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE
+.vscode/
+.idea/
+
+# Models (large files)
+models/*.pt
+models/*.pth
+models/*.bin
+models/*.gguf
+!models/demo.apl
+!models/README.md

@@ -1,0 +1,5 @@
+torch>=2.2.0
+numpy>=1.26.0
+textual>=0.52.0
+gradio>=4.0.0
+pyinstaller>=6.0.0
