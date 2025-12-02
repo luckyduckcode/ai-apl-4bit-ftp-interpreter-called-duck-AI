@@ -53,12 +53,14 @@ custom_css = """
 #code-input textarea { font-family: 'Consolas', 'Monaco', monospace; }
 """
 
-with gr.Blocks(theme=gr.themes.Soft(), css=custom_css, title="AI-APL Studio") as demo:
+with gr.Blocks(title="AI-APL Studio") as demo:
+    demo.css = custom_css
+    demo.theme = gr.themes.Soft()
     gr.Markdown("# 🧠 AI-APL Studio Web Interface")
     
     with gr.Row():
         with gr.Column(scale=2):
-            chatbot = gr.Chatbot(label="Interpreter Session", height=500, type="messages")
+            chatbot = gr.Chatbot(label="Interpreter Session", height=500)
             code_input = gr.Textbox(
                 label="APL Code Input", 
                 placeholder="Type command here (e.g. Layer 'L1' 'Linear' 64)...",

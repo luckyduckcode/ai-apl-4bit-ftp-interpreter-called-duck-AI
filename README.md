@@ -1,3 +1,19 @@
+# AI-APL Studio: The "Duck AI" Interpreter
+
+### 🦆 Why is this useful?
+AI-APL Studio bridges the gap between the concise, mathematical elegance of APL (A Programming Language) and the raw power of modern Deep Learning.
+
+Instead of writing hundreds of lines of Python boilerplate to define a neural network, AI-APL allows you to define, manipulate, and run models using expressive, high-level tensor operations. It is designed for researchers, hobbyists, and "lazy geniuses" who want to prototype AI architectures rapidly without getting bogged down in verbose syntax.
+
+**Key Advantages:**
+*   **Ultra-Concise Syntax**: Define complex tensor operations and model architectures in a fraction of the code.
+*   **Hybrid Power**: Combines the symbolic math of APL with the industry-standard **PyTorch** backend.
+*   **Zero-Setup Distribution**: Compiles into a standalone `.exe` that runs anywhere—no Python environment management required for end-users.
+*   **Dual Interfaces**: Includes both a modern **Web UI** (Gradio) for visualization and a **Terminal UI** (Textual) for keyboard-centric workflows.
+*   **4-Bit Quantization**: Built-in support for running large models efficiently on consumer hardware.
+
+---
+
 # AI-APL Studio
 
 Welcome to the **AI-APL Studio**, a modern, GPU-accelerated APL interpreter designed for AI workloads. It features a VS Code-like terminal interface and runs on Python 3.12 with PyTorch support.

@@ -17,8 +17,12 @@ def build():
         '--onedir',  # Directory based build (faster startup, easier debugging)
         '--clean',
         '--collect-all=gradio',
+        '--collect-all=gradio_client',
         '--collect-all=textual',
         '--collect-all=torch',
+        '--collect-all=safehttpx',
+        '--collect-all=groovy',
+        '--collect-all=huggingface_hub',
         '--add-data=src;src',  # Include source files
         '--add-data=models;models', # Include models directory
         '--hidden-import=src.interpreter',
